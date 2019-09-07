@@ -2,7 +2,9 @@ package com.dalircode.java;
 
 public class Main {
     public static void main(String[] args) {
-        Author author = new Author("Bob", "30", "Sweden");
+        Nybranch.test();
+
+        /*Author author = new Author("Bob", "30", "Sweden");
         Book book = new Book("The new world", 1980, author);
 
 
@@ -10,7 +12,7 @@ public class Main {
         System.out.println(book.getPublishedYear());
         System.out.println(book.getAuthor().name);
         System.out.println(book.getAuthor().age);
-        System.out.println(book.getAuthor().country);
+        System.out.println(book.getAuthor().country);*/
 
 
         /*Random random = new Random();
